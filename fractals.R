@@ -25,13 +25,17 @@ my_mandelbrot <- function(xmin=-2, xmax=2, nx=500,
   
 }
 
+
+######
+
+
+
 my_mandelbrot(
-              xmin = -1.472,
-              xmax = -1.4666,
-              nx = 72000,
-              ymin = -.000372,
-              ymax =.000372,
-              ny = 720,
-              n=72,
-              showplot = TRUE)
-  
+  xmin = -1.472,
+  xmax = -1.4666,
+  nx = 72000,
+  ymin = -.000372,
+  ymax = .000372,
+  ny = 720,
+  n=72,
+  showplot = TRUE)
